@@ -52,6 +52,7 @@ module.exports = {
       gridTemplateColumns: {
         '1fr': '1fr',
         '1/2': '50% 50%',
+        '1fr-min': '1fr min-content',
       },
       animation: {
         'spin-slow': 'pulsing-ring 1800ms cubic-bezier(.2,.6,.35,1) infinite',
