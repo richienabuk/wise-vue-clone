@@ -17,18 +17,18 @@
           </div>-->
         </div>
       </h2>
-    <div class="flex flex-wrap lg:mt-8">
-      <div class="w-full md:w-1/2 lg:w-1/4" v-for="item in entries" :key="item.id">
+    <div class="grid lg:gap-8 lg:grid-cols-4 sm:gap-4 sm:grid-cols-2 lg:mt-8">
+      <div class="w-full text-center" v-for="item in entries" :key="item.id">
         <img class="productAvailabilitySection__productImage"
              :src="item.image" alt="" loading="lazy">
-        <h3 class="productAvailabilitySection__productTitle m-t-0 m-b-0">
+        <h3 class="md:text-[1.375rem] md:leading-[1.36363636] mt-0 mb-0">
           {{ item.title }}
         </h3>
-        <div class="productAvailabilitySection__productCopy">
-          <p class="m-t-1 m-b-0">{{ item.description }}</p>
-          <p class="m-t-1 m-b-0" v-if="item.link">
-            <a target="_self" class="tw-link-with-chevron productAvailabilitySection__productLink" href="#">{{ item.link }}
-              <span class="tw-icon tw-icon-chevron tw-chevron chevron-color right" role="presentation" aria-hidden="true">
+        <div>
+          <p class="mt-2 mb-0">{{ item.description }}</p>
+          <p class="mt-2 mb-0" v-if="item.link">
+            <a target="_self" class="text-accent" href="#">{{ item.link }}
+              <span class="inline-block rotate-90" role="presentation" aria-hidden="true">
               <svg width="10" height="10" viewBox="0 0 10 10" fill="currentColor" focusable="false">
                 <path fill-rule="evenodd" d="M4.9995 2.0865L0.0635004 6.7645L1.2745 7.9125L4.9995 4.3835L8.7245 7.9135L9.9355 6.7645L4.9995 2.0865Z"></path>
               </svg>
