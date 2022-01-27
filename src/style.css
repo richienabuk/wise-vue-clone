@@ -30,8 +30,8 @@
         @apply mx-6 pb-9
     }
 
-    h1, h2, h3, h4, h5, h6,
-    .h1, .h2, .h3, .h4, .h5, .h6 {
+    h1, h2, h3, h4,
+    .h1, .h2, .h3, .h4 {
         @apply text-primary font-semibold m-0 tracking-normal
     }
 
@@ -50,7 +50,7 @@
 
 @layer components {
     .block-title {
-        @apply font-bold mb-2 md:text-title-big text-title-small
+        @apply font-bold mb-2 md:text-title-big text-title-small tracking-normal
     }
 
     .two-col-section {

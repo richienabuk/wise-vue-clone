@@ -17,13 +17,6 @@ module.exports = {
         accent: '#00b9ff',
         neutral: '#f2f5f7',
       },
-      screens: {
-        sm: "576px",
-        md: "768px",
-        lg: "999px",
-        xl: "1200px",
-        '2xl': '1400px',
-      },
       container: {
         center: true,
         padding: {
@@ -59,7 +52,15 @@ module.exports = {
       gridTemplateColumns: {
         '1fr': '1fr',
         '1/2': '50% 50%',
-      }
+      },
+      animation: {
+        'spin-slow': 'pulsing-ring 1800ms cubic-bezier(.2,.6,.35,1) infinite',
+      },
+      keyframes: {
+        'pulsing-ring': {
+          '100%': { transform: 'translate(50%,50%) scale(1.5)', opacity:0 },
+        }
+      },
     },
   },
   plugins: [

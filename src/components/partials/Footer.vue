@@ -1,5 +1,5 @@
 <template>
-  <footer class="footer lg:py-40 sm:py-28 bg-primary">
+  <footer class="footer lg:py-40 sm:py-28 py-16 bg-primary">
     <div class="container">
       <a class="flex justify-center mb-8 md:hidden" href="/"><img
         :src="Logo" alt="Wise"></a>

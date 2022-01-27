@@ -1,5 +1,6 @@
 <template>
   <DefaultLayout>
+    <HeroBlock />
     <FeaturesBlock />
     <div id="usecase-abroad" class="two-col-section lg:min-h-[800px]">
       <div class="two-col-section-img lg:order-2 bg-gradient-to-bl from-neutral to-neutral bg-[url('/images/abroad_section.jpeg')]"></div>
@@ -104,6 +105,7 @@ import FaqBlock from "../components/Home/FaqBlock.vue";
 import CoverageBlock from "../components/Home/CoverageBlock.vue";
 import SecurityBlock from "../components/Home/SecurityBlock.vue";
 import FeaturesBlock from "../components/Home/FeaturesBlock.vue";
+import HeroBlock from "../components/Home/HeroBlock.vue";
 export default {
   name: 'Home page',
   components: {
@@ -112,6 +114,7 @@ export default {
     CoverageBlock,
     SecurityBlock,
     FeaturesBlock,
+    HeroBlock,
   },
 }
 </script>
