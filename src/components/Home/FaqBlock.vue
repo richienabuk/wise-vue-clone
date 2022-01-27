@@ -2,8 +2,8 @@
   <div class="bg-neutral md:py-16 py-8">
     <div class="container">
       <div class="text-center">
-        <b class="text-secondary font-semibold">Frequently asked questions</b>
-        <h2 class="text-primary md:text-[2.625rem] text-[1.75rem] font-bold mt-2">Let's answer some of your questions</h2>
+        <b class="font-semibold tracking-normal text-secondary">Frequently asked questions</b>
+        <h2 class="text-primary block-title">Let's answer some of your questions</h2>
       </div>
       <div class="mt-8">
         <div class="faqBlock faqBlock--open" role="button" aria-expanded="true" tabindex="0">

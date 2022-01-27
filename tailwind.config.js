@@ -17,6 +17,13 @@ module.exports = {
         accent: '#00b9ff',
         neutral: '#f2f5f7',
       },
+      screens: {
+        sm: "576px",
+        md: "768px",
+        lg: "999px",
+        xl: "1200px",
+        '2xl': '1400px',
+      },
       container: {
         center: true,
         padding: {
@@ -42,6 +49,16 @@ module.exports = {
         'md': '1.25rem',
         'lg': '1.625rem',
         'xl': '2rem',
+        'title-big': '2.625rem',
+        'title-small': '1.75rem'
+      },
+      gridTemplateRows: {
+        '1fr': '1fr',
+        'auto-fr': 'auto 1fr',
+      },
+      gridTemplateColumns: {
+        '1fr': '1fr',
+        '1/2': '50% 50%',
       }
     },
   },
