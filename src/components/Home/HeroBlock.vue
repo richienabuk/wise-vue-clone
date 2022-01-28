@@ -66,7 +66,43 @@
                   </div>
                 </div>
               </div>
-              <div class="h-36"></div>
+<!--              <div class="h-36"></div>-->
+
+              <div class="flex flex-col my-6">
+                <span class="inline-flex">
+                  <span class="bg-[#253655] rounded-full text-white w-6 h-6 mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-6 w-6 p-1">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18 12H6"></path>
+                    </svg>
+                  </span>
+                  <p class="inline-flex text-white text-base font-bold pl-4">5.53 GBP </p>
+                  <div class="w-1/2 ml-8 text-base">
+                    <select class="focus:outline-none bg-[#253655] text-white -mt-2 font-normal w-full p-2">
+                      <option disabled class="text-white"></option>
+                    </select>
+                  </div>
+                  <p class="inline-flex pl-4 text-white">fee</p>
+                </span>
+                <span class="inline-flex py-3 text-ashgray">
+                  <span class="bg-[#253655] rounded-full text-white w-6 h-6">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-6 w-6 p-1">
+                      <path fill-rule="evenodd" d="M3 7a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 13a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
+                    </svg>
+                  </span>
+                  <span class="px-4">994.47 GBP</span>
+                  <span> Amount we’ll convert</span>
+                </span>
+                <div class="flex flex-wrap pt-4">
+                  <span class="bg-[#253655] rounded-full text-white w-6 h-6">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-6 w-6 p-1">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
+                    </svg>
+                  </span>
+                  <span class="px-4 font-bold text-accent">522.636</span>
+                  <span class="ml-6"><span class="border-b border-dotted border-accent text-neutral hover:text-accent">Guaranteed rate</span> (-1hrs)</span>
+                </div>
+              </div>
+
               <div class="relative mb-0">
                 <label class="absolute top-3 left-3.5 mb-0 z-10 text-secondary text-tiny" for="tw-calculator-target">Recipient <!-- --> gets<!-- --> </label>
                 <div class="flex">
