@@ -7,31 +7,24 @@
       </div>
       <div class="mt-8 content">
         <div class="sm:p-6 text-left w-full" role="button" aria-expanded="true" tabindex="0">
-          <div v-for="item in entries" :key="item.id" class="grid gap-4 sm:gap-6 grid-rows-1fr grid-cols-1fr-min mt-2 rounded-sm p-4 bg-white">
-            <div>
-              <h3 class="text-primary h4 md:text-md md:[line-height: 1.33333333]">{{ item.title }}</h3>
-              <div class="mt-4">
-                <div v-html="item.body" class="text-tiny text-secondary"></div>
-                <div class="flex items-center" v-if="item.link">
-                  <a target="_blank" rel="noopener noreferrer" class="tw-link-with-chevron" href="#">
-                    {{ item.link }}
+          <faq-accordion v-for="item in entries" :key="item.id">
+            <template v-slot:title>
+              {{ item.title }}
+            </template>
+            <template v-slot:content>
+              <div v-html="item.body" class="text-tiny text-secondary"></div>
+              <div class="flex items-center" v-if="item.link">
+                <a target="_blank" rel="noopener noreferrer" class="tw-link-with-chevron" href="#">
+                  {{ item.link }}
                   <span class="text-accent inline-block rotate-90" role="presentation" aria-hidden="true">
                     <svg width="10" height="10" viewBox="0 0 10 10" fill="currentColor" focusable="false">
                       <path fill-rule="evenodd" d="M4.9995 2.0865L0.0635004 6.7645L1.2745 7.9125L4.9995 4.3835L8.7245 7.9135L9.9355 6.7645L4.9995 2.0865Z"></path>
                     </svg>
                   </span>
-                  </a>
-                </div>
+                </a>
               </div>
-            </div>
-            <div>
-              <span class="text-accent" aria-hidden="true" role="presentation">
-                <svg width="16" height="16" fill="currentColor" focusable="false">
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M8 4l-6.6 6.653L2.537 11.8 8 6.293l5.463 5.507 1.137-1.147L8 4z"></path>
-                </svg>
-              </span>
-            </div>
-          </div>
+            </template>
+          </faq-accordion>
         </div>
       </div>
     </div>
@@ -39,8 +32,12 @@
 </template>
 
 <script>
+import FaqAccordion from "../Utils/FaqAccordion.vue";
 export default {
   name: 'Faq Block',
+  components: {
+    FaqAccordion
+  },
   data() {
     return {
       entries: [
