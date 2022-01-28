@@ -78,6 +78,41 @@
           </div>
         </div>
     </div>
+    <div class="py-16 bg-[#485dc7]">
+      <div class="container">
+        <div class="text-center">
+          <b class="font-semibold tracking-normal text-white">Getting started</b>
+          <h2 class="text-white block-title md:max-w-3xl mx-auto leading-[1.14285714] my-2">Get set up and start spending with your card in minutes.</h2>
+        </div>
+        <p class="mt-4 mb-0 md:hidden text-white text-left md:text-center">Sign up online, or in our app. Verify your identity with a government ID and top up your account. Then you’re all set.</p>
+        <div class="md:grid hidden md:grid-cols-2 gap-8 xl:grid-cols-4 md:mt-12 mt-8">
+          <div class="text-center">
+            <h3 class="h2 my-0 leading-[1.14285714] font-bold text-white text-[1.75rem] mb-2">Register in minutes</h3>
+            <p class="mb-0 text-white">Sign up online, or in our app with an email address, or a Google, Facebook or Apple account.</p>
+          </div>
+          <div class="text-center">
+            <h3 class="h2 my-0 leading-[1.14285714] font-bold text-white text-[1.75rem] mb-2">Verify your identity</h3>
+            <p class="mb-0 text-white">All you need to receive money or order a card is your government ID.</p>
+          </div>
+          <div class="text-center">
+            <h3 class="h2 my-0 leading-[1.14285714] font-bold text-white text-[1.75rem] mb-2">Top up your account</h3>
+            <p class="mb-0 text-white">You can add money using your bank account, Apple Pay, credit/debit card.</p>
+          </div>
+          <div class="text-center">
+            <h3 class="h2 my-0 leading-[1.14285714] font-bold text-white text-[1.75rem] mb-2">
+              <svg class="w-[58px] h-[58px] mx-auto" viewBox="0 0 58 58" fill="none" xmlns="http://www.w3.org/2000/svg" focusable="false">
+                <circle cx="29" cy="29" r="28" stroke="currentColor" stroke-width="2"></circle>
+                <path fill-rule="evenodd" d="M19.2998 30.3505L20.713 28.9485L26.002 34.1959L37.2866 23L38.6998 24.4021L26.002 37L19.2998 30.3505Z" fill="currentColor"></path>
+              </svg>
+            </h3>
+            <p class="mb-0 text-white">Share your account details to get paid, or spend around the world with your debit card.</p>
+          </div>
+        </div>
+        <p class="text-white mt-8 md:mt-16 mb-0 text-left md:text-center">
+          <a class="min-w-[240px] text-white border border-white text-center inline-block min-h-[48px] rounded-[3px] px-6 pt-3 pb-2.5" href="#" target="_self">Get an account in minutes</a>
+        </p>
+      </div>
+    </div>
     <div id="customer-support" class="two-col-section lg:min-h-[800px]">
       <div class="two-col-section-img lg:order-2 bg-gradient-to-bl from-neutral to-neutral bg-[url('/images/customer-support.jpg')]"></div>
       <div class="two-col-section-content lg:order-1">

@@ -66,68 +66,7 @@
                   </div>
                 </div>
               </div>
-              <div class="h-16"></div>
-<!--              <ul class="sequence sequence-top sequence-bottom tw-calculator-breakdown tw-calculator-breakdown&#45;&#45;detailed sequence-inverse tw-calculator-breakdown&#45;&#45;inverse">
-                <li>
-                  <span class="sequence-icon tw-calculator-breakdown__icon">–</span>
-                  <span class="tw-calculator-breakdown-item__left">
-                    <strong data-testid="tw-money-wrapper-bold">5.53 GBP</strong>
-                </span>
-                  <span class="tw-calculator-breakdown-item__right">
-                  <span class="m-r-1" data-tracking-id="calculator-payment-select">
-                    <div class="tw-select btn-group dropdown">
-                      <button class="btn btn-input btn-input-inverse btn-addon btn-sm dropdown-toggle" type="button" aria-expanded="false">
-                        <span>Low cost transfer</span>
-                        <span class="tw-icon tw-icon-chevron-up tw-chevron chevron-color bottom tw-icon tw-chevron-up-icon tw-chevron bottom tw-select-chevron" aria-hidden="true" role="presentation">
-                          <svg width="16" height="16" fill="currentColor" focusable="false">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8 4l-6.6 6.653L2.537 11.8 8 6.293l5.463 5.507 1.137-1.147L8 4z"></path>
-                          </svg>
-                        </span>
-                      </button>
-                    </div>
-                  </span>
-                    <span style="text-transform:none">fee</span>
-                  </span>
-                </li>
-                <li>
-                  <span class="sequence-icon tw-calculator-breakdown__icon">=</span>
-                  <span class="tw-calculator-breakdown-item__left">994.47 GBP</span>
-                  <span class="tw-calculator-breakdown-item__right">Amount we’ll convert</span>
-                </li>
-                <li>
-                  <span class="sequence-icon tw-calculator-breakdown__icon">×</span>
-                  <span class="tw-calculator-breakdown-item__left"><a role="button" tabindex="0">
-                    <span class="tw-calculator-breakdown-rate__value">522.093</span>
-                    <span class="tw-calculator-breakdown-rate-graph-icon">
-                      <svg viewBox="0 0 11 8" version="1.1" xmlns="http://www.w3.org/2000/svg" id="el_m5vu-971w">
-                        <defs>
-                        <linearGradient x1="-12.7227783%" y1="100%" x2="125.65918%" y2="100%" id="linearGradient-1">
-                          <stop stop-color="#00B9FE" offset="0%"></stop>
-                          <stop stop-color="#2ED06F" offset="100%"></stop>
-                        </linearGradient>
-                        </defs>
-                        <g id="el_sQvX_qcVwL" fill-rule="evenodd">
-                          <g id="el_s1n2A-3zGx">
-                            <path d="M6.12919677,0 C6.00679983,0 5.96090098,0.137696558 6.03739907,0.229494263 L7.16957076,1.36166596 L8.63833404,2.83042924 L9.77050574,3.96260093 C9.84700382,4.03909902 10,3.99320017 10,3.87080323 L10,0.137696558 C10,0.06119847 9.93880153,0 9.86230344,0 L6.12919677,0 Z" id="el_dre9buCDMS"></path>
-                            <polyline id="el_lemhJ3vI1C" points="0 6 3 3 5 5 8 2"></polyline>
-                          </g>
-                        </g>
-                      </svg>
-                    </span>
-                  </a>
-                  </span>
-                  <span class="tw-calculator-breakdown-item__right">
-                    <span class="np-popover">
-                      <span class="d-inline-block">
-                        <button type="button" class="btn-unstyled" data-toggle="popover">
-                          <span data-tracking-id="calculator-fixed-rate-tooltip" data-gtm-vis-first-on-screen-881521_1494="158379">Guaranteed rate</span>
-                        </button>
-                      </span>
-                    </span>
-                    <span style="white-space:nowrap">(13 hrs)</span>
-                  </span>
-                </li>
-              </ul>-->
+              <div class="h-36"></div>
               <div class="relative mb-0">
                 <label class="absolute top-3 left-3.5 mb-0 z-10 text-secondary text-tiny" for="tw-calculator-target">Recipient <!-- --> gets<!-- --> </label>
                 <div class="flex">
