@@ -27,7 +27,7 @@
     }
 
     ol, ul {
-        @apply mx-6 pb-9
+        @apply mx-6
     }
 
     h1, h2, h3, h4,
@@ -67,6 +67,99 @@
         @apply mb-4 font-semibold
     }
     .footer-link {
-        @apply underline
+        @apply underline hover:text-secondary
+    }
+
+    .sequence {
+        @apply pl-6 relative ml-[25px] my-0 text-tiny border-[#d3d5d8] md:pr-6 md:text-base
+    }
+
+    .sequence > li {
+        @apply py-0.5 first:mt-4 last:mb-4 md:py-1 before:mt-2 after:top-4 first:after:h-full last:after:h-0 first:last:after:h-full before:ml-[-27px] after:left-[-24px] block leading-[24px] relative border-[#d3d5d8] before:content-[''] before:block before:absolute before:w-2 before:h-2 before:rounded-full before:z-20 before:border-4 outline-0 after:content-[''] after:absolute after:w-0.5 after:h-full after:border-0 after:outline-0 after:bg-[#d3d5d8] after:bg-200p after:bg-00 after:border-0
+    }
+
+    .sequence > li {
+        @apply first:pt-[20px] first:mt-0 first:after:h-100-16
+    }
+
+    .sequence > li {
+        @apply last:pb-[20px] last:mb-0 last:after:h-100-16
+    }
+
+    .sequence > li > a {
+        @apply block no-underline text-accent outline-offset-1 hover:text-accent-hover focus:text-accent-hover active:text-link-active
+    }
+
+    .sequence > li p {
+        @apply mb-0 pb-2 max-w-[600px] last:pb-0
+    }
+
+    .sequence > li h1, .sequence > li h2, .sequence > li h3, .sequence > li h4 {
+        @apply mb-4
+    }
+
+    .sequence-icon {
+        @apply absolute block -ml-[35px] rounded-full bg-white w-6 h-6 leading-6 z-20 text-center top-0.5 md:top-1 text-[12px] decoration-0 border border-[#5d7079]
+    }
+
+    .sequence a {
+        @apply no-underline font-[500]
+    }
+
+    .sequence > li {
+        @apply first:after:top-0
+    }
+
+    .sequence .sequence-icon {
+        @apply bg-[#37517e] border-[#fff]
+    }
+
+    .sequence a .sequence-icon {
+        @apply text-[#00b9ff] border-[#00b9ff]
+    }
+
+    .sequence a:focus .sequence-icon, .sequence a:hover .sequence-icon {
+        @apply text-[#00a4df] border-[#00a4df]
+    }
+
+    .sequence {
+        @apply pl-2 ml-12
+    }
+
+    .sequence .tw-calculator-breakdown-item__left,
+    .sequence .tw-calculator-breakdown-item__right {
+        @apply pb-0.5 pt-0.5 align-middle md:py-1 md:leading-6
+    }
+
+    .sequence .tw-calculator-breakdown-item__right {
+        @apply inline-block pt-0 pb-0
+    }
+
+    .sequence .tw-calculator-breakdown-item__left {
+        @apply inline-block mr-2 text-[#2e4369] sm:min-w-[96px]
+    }
+
+    .sequence > li {
+        @apply before:mt-2.5 before:-ml-9 before:border-[#e2e6e8] md:before:mt-3 after:left-[-33px] after:bg-[#e2e6e8]
+    }
+
+    .sequence > li .sequence-icon {
+        @apply top-1 ml-[-44px] inline-flex items-center justify-center md:top-[6px]
+     }
+
+    .sequence .tw-calculator-breakdown__icon {
+        @apply bg-neutral border-neutral text-[18px] bg-[#253655] border-[#253655]
+    }
+    .sequence .tw-calculator-breakdown-item__left,
+    .sequence .tw-calculator-breakdown-item__right {
+         @apply text-[#d3d5d8]
+     }
+
+    .sequence > li {
+        @apply before:bg-[#253655] before:border-[#253655] after:bg-[#253655] after:border-[#253655]
+    }
+
+    .sequence > li:first-child .sequence-icon {
+        @apply top-[22px]
     }
 }

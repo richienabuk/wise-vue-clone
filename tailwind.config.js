@@ -16,6 +16,8 @@ module.exports = {
         secondary: '#5d7079',
         accent: '#00b9ff',
         neutral: '#f2f5f7',
+        'accent-hover': '#00a4df',
+        'link-active': '#008ec0',
       },
       container: {
         center: true,
@@ -61,6 +63,19 @@ module.exports = {
         'pulsing-ring': {
           '100%': { transform: 'translate(50%,50%) scale(1.5)', opacity:0 },
         }
+      },
+      backgroundSize: {
+        'auto': 'auto',
+        'cover': 'cover',
+        'contain': 'contain',
+        '200p': '200% 200%',
+        '16': '4rem',
+      },
+      backgroundPosition: {
+        '00': '0 0',
+      },
+      height: {
+        '100-16': 'calc(100% + 16px)',
       },
     },
   },

@@ -66,42 +66,65 @@
                   </div>
                 </div>
               </div>
-<!--              <div class="h-36"></div>-->
+              <ul class="sequence">
+                <li>
+                  <span class="sequence-icon tw-calculator-breakdown__icon">–</span>
+                  <span class="tw-calculator-breakdown-item__left">
+                  <strong class="text-white">5.53 GBP</strong>
+                </span>
+                  <span class="tw-calculator-breakdown-item__right">
+                  <span class="mr-2">
+                    <div class="relative align-middle inline-block">
+                      <button class="relative float-left text-left ml-0 pl-3 text-white bg-[#2e4369] border-[#2e4369] pt-1 pb-0.5 min-h-[32px] rounded-[2px] text-[14px] pr-8 h-8" type="button" aria-expanded="false">
+                        <span>Low cost transfer</span>
+                        <span class="inline-block rotate-180 margin-0 top-2 right-2 absolute" aria-hidden="true" role="presentation">
+                          <svg width="16" height="16" fill="currentColor" focusable="false">
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M8 4l-6.6 6.653L2.537 11.8 8 6.293l5.463 5.507 1.137-1.147L8 4z"></path>
+                        </svg>
+                        </span>
+                      </button>
+                    </div>
+                  </span>
+                  <span style="text-transform:none">fee</span>
+                </span>
+                </li>
+                <li>
+                  <span class="sequence-icon tw-calculator-breakdown__icon">=</span>
+                  <span class="tw-calculator-breakdown-item__left">994.47 GBP</span>
+                  <span class="tw-calculator-breakdown-item__right">Amount we’ll convert</span></li>
+                <li>
+                  <span class="sequence-icon tw-calculator-breakdown__icon">×</span>
+                  <span class="tw-calculator-breakdown-item__left"><a role="button" tabindex="0">
+                    <span class="font-bold text-accent">520.192</span>
+                    <span class="ml-[0.25em] inline-block">
+                      <svg viewBox="0 0 11 8" version="1.1" xmlns="http://www.w3.org/2000/svg" class="h-[0.75em]">
+                        <defs><linearGradient x1="-12.7227783%" y1="100%" x2="125.65918%" y2="100%">
+                          <stop stop-color="#00B9FE" offset="0%"></stop>
+                          <stop stop-color="#2ED06F" offset="100%"></stop>
+                        </linearGradient></defs>
+                        <g fill-rule="evenodd"><g>
+                          <path d="M6.12919677,0 C6.00679983,0 5.96090098,0.137696558 6.03739907,0.229494263 L7.16957076,1.36166596 L8.63833404,2.83042924 L9.77050574,3.96260093 C9.84700382,4.03909902 10,3.99320017 10,3.87080323 L10,0.137696558 C10,0.06119847 9.93880153,0 9.86230344,0 L6.12919677,0 Z" fill="#23ca8f"></path>
+                          <polyline id="el_wWgIoPQu5o" points="0 6 3 3 5 5 8 2"></polyline>
+                        </g>
+                        </g>
+                      </svg>
+                    </span>
+                  </a>
+                  </span>
+                  <span class="tw-calculator-breakdown-item__right">
+                    <span class="np-popover">
+                      <span class="inline-block">
+                        <button type="button" class="border-b border-dotted border-accent hover:text-accent">
+                          <span>Guaranteed rate</span>
+                        </button>
+                      </span>
+                    </span>
+                    <span class="whitespace-nowrap"> (44 hrs)</span>
+                  </span>
+                </li>
+              </ul>
 
-              <div class="flex flex-col my-6">
-                <span class="inline-flex">
-                  <span class="bg-[#253655] rounded-full text-white w-6 h-6 mb-4">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-6 w-6 p-1">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18 12H6"></path>
-                    </svg>
-                  </span>
-                  <p class="inline-flex text-white text-base font-bold pl-4">5.53 GBP </p>
-                  <div class="w-1/2 ml-8 text-base">
-                    <select class="focus:outline-none bg-[#253655] text-white -mt-2 font-normal w-full p-2">
-                      <option disabled class="text-white"></option>
-                    </select>
-                  </div>
-                  <p class="inline-flex pl-4 text-white">fee</p>
-                </span>
-                <span class="inline-flex py-3 text-ashgray">
-                  <span class="bg-[#253655] rounded-full text-white w-6 h-6">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-6 w-6 p-1">
-                      <path fill-rule="evenodd" d="M3 7a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 13a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
-                    </svg>
-                  </span>
-                  <span class="px-4">994.47 GBP</span>
-                  <span> Amount we’ll convert</span>
-                </span>
-                <div class="flex flex-wrap pt-4">
-                  <span class="bg-[#253655] rounded-full text-white w-6 h-6">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-6 w-6 p-1">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
-                    </svg>
-                  </span>
-                  <span class="px-4 font-bold text-accent">522.636</span>
-                  <span class="ml-6"><span class="border-b border-dotted border-accent text-neutral hover:text-accent">Guaranteed rate</span> (-1hrs)</span>
-                </div>
-              </div>
+
 
               <div class="relative mb-0">
                 <label class="absolute top-3 left-3.5 mb-0 z-10 text-secondary text-tiny" for="tw-calculator-target">Recipient <!-- --> gets<!-- --> </label>

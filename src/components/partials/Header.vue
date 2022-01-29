@@ -12,7 +12,7 @@
           </div>
         </button>
         <div class="flex flex-col items-center justify-center h-full float-left">
-          <a href="/" class="navbar-brand-logo lg:hidden xl:block">
+          <a href="/" class="navbar-brand-logo lg:hidden xl:block mb-1">
           <img src="@/assets/logo.svg" alt="Wise">
           </a>
           <a href="/" class="navbar-fast-flag lg:block hidden xl:hidden">
@@ -27,7 +27,7 @@
       <nav class="hidden lg:block md:mx-0 md:px-0 collapse text-tiny">
         <div class="relative">
 <!--          // drawer menu here-->
-          <ul class="md:float-left ml-3 mt-3 pl-0 list-none mb-0">
+          <ul class="md:float-left ml-3 mt-3 pl-0 list-none mb-0 text-[16px]">
             <li class="md:float-left relative my-3 block font-semibold block">
               <a href="#" class="md:text-accent text-white font-semibold px-2.5 leading-[24px] min-h-8 rounded-[2px]">Personal</a>
             </li>
@@ -90,7 +90,7 @@
                 <a href="#" class="max-w-[164px] text-white px-2.5 pt-1 pb-0.5 rounded-[2px] block relative" title="Log in" target="_top">Log in</a>
               </li>
               <li class="float-left mt-3 block relative mb-[11px]">
-                <a href="#" class="max-w-[164px] px-4 pt-1 ml-2.5 text-accent pb-0.5 rounded-[2px] border block relative border-accent bg-transparent text-center" title="Register" target="_top">Register</a>
+                <a href="#" class="max-w-[164px] px-4 pt-1 ml-2.5 text-accent pb-0.5 rounded-[2px] border block relative border-accent bg-transparent text-center hover:bg-accent hover:text-white" title="Register" target="_top">Register</a>
               </li>
             </ul>
           </div>
