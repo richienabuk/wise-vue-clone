@@ -146,6 +146,236 @@ export default {
           currency: 'Swiss franc',
           flag: '/images/flags/chf.png',
         },
+        {
+          id: 9,
+          currency: 'Chilean peso',
+          flag: '/images/flags/clp.png',
+        },
+        {
+          id: 10,
+          currency: 'Chinese yuan',
+          flag: '/images/flags/cny.png',
+        },
+        {
+          id: 11,
+          currency: 'Costa Rican colón',
+          flag: '/images/flags/crc.png',
+        },
+        {
+          id: 12,
+          currency: 'Czech koruna',
+          flag: '/images/flags/czk.png',
+        },
+        {
+          id: 13,
+          currency: 'Danish krone',
+          flag: '/images/flags/dkk.png',
+        },
+        {
+          id: 14,
+          currency: 'Egyptian pound',
+          flag: '/images/flags/egp.png',
+        },
+        {
+          id: 15,
+          currency: 'Euro',
+          flag: '/images/flags/eur.png',
+        },
+        {
+          id: 16,
+          currency: 'British Pound',
+          flag: '/images/flags/gbp.png',
+        },
+        {
+          id: 17,
+          currency: 'Georgian lari',
+          flag: '/images/flags/gel.png',
+        },
+        {
+          id: 18,
+          currency: 'Ghanaian cedi',
+          flag: '/images/flags/ghs.png',
+        },
+        {
+          id: 19,
+          currency: 'Hong Kong dollar',
+          flag: '/images/flags/hkd.png',
+        },
+        {
+          id: 20,
+          currency: 'Croatian kuna',
+          flag: '/images/flags/hrk.png',
+        },
+        {
+          id: 21,
+          currency: 'Hungarian forint',
+          flag: '/images/flags/huf.png',
+        },
+        {
+          id: 22,
+          currency: 'Indonesian rupiah',
+          flag: '/images/flags/idr.png',
+        },
+        {
+          id: 23,
+          currency: 'Israeli shekel',
+          flag: '/images/flags/ils.png',
+        },
+        {
+          id: 24,
+          currency: 'Indian rupee',
+          flag: '/images/flags/inr.png',
+        },
+        {
+          id: 25,
+          currency: 'Japanese yen',
+          flag: '/images/flags/jpy.png',
+        },
+        {
+          id: 26,
+          currency: 'Kenyan shilling',
+          flag: '/images/flags/kes.png',
+        },
+        {
+          id: 27,
+          currency: 'South Korean won',
+          flag: '/images/flags/krw.png',
+        },
+        {
+          id: 28,
+          currency: 'Sri Lankan rupee',
+          flag: '/images/flags/lkr.png',
+        },
+        {
+          id: 29,
+          currency: 'Moroccan dirham',
+          flag: '/images/flags/mad.png',
+        },
+        {
+          id: 30,
+          currency: 'Mexican peso',
+          flag: '/images/flags/mxn.png',
+        },
+        {
+          id: 31,
+          currency: 'Malaysian ringgit',
+          flag: '/images/flags/myr.png',
+        },
+        {
+          id: 32,
+          currency: 'Nigerian naira',
+          flag: '/images/flags/ngn.png',
+        },
+        {
+          id: 33,
+          currency: 'Norwegian krone',
+          flag: '/images/flags/nok.png',
+        },
+        {
+          id: 34,
+          currency: 'Nepalese rupee',
+          flag: '/images/flags/npr.png',
+        },
+        {
+          id: 35,
+          currency: 'New Zealand dollar',
+          flag: '/images/flags/nzd.png',
+        },
+        {
+          id: 36,
+          currency: 'Peruvian sol',
+          flag: '/images/flags/pen.png',
+        },
+        {
+          id: 37,
+          currency: 'Philippine peso',
+          flag: '/images/flags/php.png',
+        },
+        {
+          id: 38,
+          currency: 'Pakistani rupee',
+          flag: '/images/flags/pkr.png',
+        },
+        {
+          id: 39,
+          currency: 'Polish złoty',
+          flag: '/images/flags/pln.png',
+        },
+        {
+          id: 40,
+          currency: 'Romanian lei',
+          flag: '/images/flags/ron.png',
+        },
+        {
+          id: 41,
+          currency: 'Russian ruble',
+          flag: '/images/flags/rub.png',
+        },
+        {
+          id: 42,
+          currency: 'Swedish krona',
+          flag: '/images/flags/sek.png',
+        },
+        {
+          id: 43,
+          currency: 'Singapore dollar',
+          flag: '/images/flags/sgd.png',
+        },
+        {
+          id: 44,
+          currency: 'Thai baht',
+          flag: '/images/flags/thb.png',
+        },
+        {
+          id: 45,
+          currency: 'Turkish lira',
+          flag: '/images/flags/try.png',
+        },
+        {
+          id: 46,
+          currency: 'Tanzanian shilling',
+          flag: '/images/flags/tzs.png',
+        },
+        {
+          id: 47,
+          currency: 'Ukrainian hryvnia',
+          flag: '/images/flags/uah.png',
+        },
+        {
+          id: 48,
+          currency: 'Ugandan shilling',
+          flag: '/images/flags/ugx.png',
+        },
+        {
+          id: 49,
+          currency: 'US dollar',
+          flag: '/images/flags/usd.png',
+        },
+        {
+          id: 50,
+          currency: 'Uruguayan peso',
+          flag: '/images/flags/uyu.png',
+        },
+        {
+          id: 51,
+          currency: 'Vietnamese dong',
+          flag: '/images/flags/vnd.png',
+        },
+        {
+          id: 52,
+          currency: 'West African franc',
+          flag: '/images/flags/xof.png',
+        },
+        {
+          id: 53,
+          currency: 'South African rand',
+          flag: '/images/flags/zar.png',
+        },
+        {
+          id: 54,
+          currency: 'Zambian kwacha',
+          flag: '/images/flags/zmw.png',
+        }
       ],
     }
   }
