@@ -18,6 +18,7 @@ module.exports = {
         neutral: '#f2f5f7',
         'accent-hover': '#00a4df',
         'link-active': '#008ec0',
+        'bd-neutral': '#e2e6e8',
       },
       container: {
         center: true,

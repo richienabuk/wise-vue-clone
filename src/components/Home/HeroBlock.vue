@@ -164,11 +164,11 @@
           <div class="lg:hidden text-center mt-6">
             <b class="hidden sm:block font-semibold">Also available on</b>
             <div class="md:grid md:grid-cols-2 md:gap-2 mt-2">
-              <a href="https://apps.apple.com/app/id612261027" target="_blank" rel="noopener noreferrer">
-                <img class="h-14 md:ml-auto mx-auto md:mr-0" src="https://wise.com/public-resources/assets/marketing-components/app-store-badges/en_us.svg" alt="Download from the Apple App Store">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <img class="h-14 md:ml-auto mx-auto md:mr-0" src="/images/icons/apple-store-icon.svg" alt="Download from the Apple App Store">
               </a>
-              <a href="https://play.google.com/store/apps/details?id=com.transferwise.android" target="_blank" rel="noopener noreferrer">
-                <img class="h-14 md:mr-auto md:ml-0 md:mt-0 mt-2 mx-auto" src="https://wise.com/public-resources/assets/marketing-components/google-play-store-badges/en_us.svg" alt="Download from the Google Play Store">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <img class="h-14 md:mr-auto md:ml-0 md:mt-0 mt-2 mx-auto" src="/images/icons/google-playstore-icon.svg" alt="Download from the Google Play Store">
               </a>
             </div>
           </div>

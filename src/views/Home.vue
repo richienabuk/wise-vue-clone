@@ -129,7 +129,7 @@
       </div>
     </div>
     <SecurityBlock />
-<!--    <CoverageBlock />-->
+    <CoverageBlock />
     <FaqBlock />
   </DefaultLayout>
 </template>
